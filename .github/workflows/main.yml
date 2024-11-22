@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
+          git clone https://github.com/apix23/github-actions-masterclass.git
           echo "Changing some content"
           pwd 
           ls -la
