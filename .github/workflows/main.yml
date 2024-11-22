@@ -7,5 +7,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Testing the code"
+      - run: echo "Changing some content"
       
