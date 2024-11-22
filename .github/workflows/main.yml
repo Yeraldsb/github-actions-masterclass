@@ -7,5 +7,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Changing some content"
+      - run: |
+          echo "Changing some content"
+          pwd 
+          ls -la
+
       
